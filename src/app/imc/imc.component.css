@@ -1,0 +1,77 @@
+/* imc.component.css */
+
+body {
+background-color: black;
+}
+
+/* Estilos para a caixa roxa pastel */
+
+.box {
+background-color: #fff;
+padding: 50px;
+border-radius: 10px;
+box-shadow: 0 9px 20px rgba(0, 0, 0, 0.3);
+border: none;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+align-items: center;
+justify-content: center;
+max-width: 350px;
+}
+
+/* Estilos para os elementos de entrada */
+
+label {
+display: block;
+margin-bottom: 10px; /* aumentar espaçamento */
+font-family: Arial, sans-serif; /* mudar fonte */
+font-size: 14px;
+}
+
+ /* Estilos para os elementos de entrada */
+
+input {
+display: block;
+width: 275px;
+height: 32px; /* aumentar altura */
+border-radius: 3px;
+border: 1px solid #000;
+margin-bottom: 10px;
+font-family: Arial, sans-serif; /* mudar fonte */
+font-size: 14px;
+}
+
+
+/* Estilos para o botão */
+
+button {
+display: block;
+background-color: #7c3aed;
+color: #fff;
+border: none;
+width: 135px;
+height: 32px;
+border-radius: 6px;
+cursor: pointer;
+margin-right: 10px;
+transition: background-color 0.2s ease-in-out;
+}
+
+/* Estilos para a mensagem de resultado */
+
+.resultado {
+font-weight: bold;
+margin-top: 10px;
+font-family: Arial, sans-serif; /* mudar fonte */
+font-size: 16px;
+}
+
+/* Estilos para a caixa que contém os botões */
+
+.button-container {
+display: flex;
+justify-content: center;
+margin-bottom: 10px;
+}
