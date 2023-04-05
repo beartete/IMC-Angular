@@ -1,77 +1,95 @@
 /* imc.component.css */
 
 body {
-background-color: black;
-}
-
-/* Estilos para a caixa roxa pastel */
-
-.box {
-background-color: #fff;
-padding: 50px;
-border-radius: 10px;
-box-shadow: 0 9px 20px rgba(0, 0, 0, 0.3);
-border: none;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-align-items: center;
-justify-content: center;
-max-width: 350px;
-}
-
-/* Estilos para os elementos de entrada */
-
-label {
-display: block;
-margin-bottom: 10px; /* aumentar espaçamento */
-font-family: Arial, sans-serif; /* mudar fonte */
-font-size: 14px;
-}
-
- /* Estilos para os elementos de entrada */
-
-input {
-display: block;
-width: 275px;
-height: 32px; /* aumentar altura */
-border-radius: 3px;
-border: 1px solid #000;
-margin-bottom: 10px;
-font-family: Arial, sans-serif; /* mudar fonte */
-font-size: 14px;
-}
-
-
-/* Estilos para o botão */
-
-button {
-display: block;
-background-color: #7c3aed;
-color: #fff;
-border: none;
-width: 135px;
-height: 32px;
-border-radius: 6px;
-cursor: pointer;
-margin-right: 10px;
-transition: background-color 0.2s ease-in-out;
-}
-
-/* Estilos para a mensagem de resultado */
-
-.resultado {
-font-weight: bold;
-margin-top: 10px;
-font-family: Arial, sans-serif; /* mudar fonte */
-font-size: 16px;
-}
-
-/* Estilos para a caixa que contém os botões */
-
-.button-container {
-display: flex;
-justify-content: center;
-margin-bottom: 10px;
-}
+    background-color: #f5f5f5; /* mudar a cor do fundo */
+    font-family: Arial, sans-serif;
+    }
+    
+    /* Estilos para a caixa roxa pastel */
+    
+    .box {
+    background-color: #b4a1b6;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 9px 20px rgba(0, 0, 0, 0.3);
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    }
+    
+    /* Estilos para os elementos de entrada */
+    
+    label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif; /* mudar a fonte */
+    font-size: 14px;
+    color: white; /* adicionar cor ao texto */
+    }
+    
+    /* Estilos para os elementos de entrada */
+    
+    input {
+    display: block;
+    width: 290px;
+    height: 40px; /* aumentar a altura */
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif; /* mudar a fonte */
+    font-size: 14px;
+    padding: 10px; /* adicionar preenchimento */
+    box-sizing: border-box; /* manter o tamanho correto */
+    }
+    
+    /* Estilos para o botão */
+    
+    button {
+    display: block;
+    background-color: #5e35b1;
+    color: #fff;
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.2s ease-in-out;
+    font-family: 'Roboto', sans-serif; /* mudar a fonte */
+    font-size: 14px;
+    }
+    
+    /* Estilos para a mensagem de resultado */
+    
+    .resultado {
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif; /* mudar a fonte */
+    font-size: 16px;
+    color: white; /* adicionar cor ao texto */
+    }
+    
+    /* Estilos para a caixa que contém os botões */
+    
+    .button-container {
+    display: flex;
+    justify-content: space-between; /* adicionar espaçamento entre os botões */
+    margin-bottom: 10px;
+    }
+    
+    /* adicionar estilos para o elemento h1 */
+    
+    h1 {
+    color: #7c3aed; /* usar a mesma cor da caixa */
+    text-align: center;
+    font-size: 28px; /* aumentar o tamanho da fonte */
+    margin-top: 0;
+    font-weight: 500; /* aumentar o peso da fonte */
+    margin-bottom: 20px; /* adicionar espaçamento inferior */
+    font-family: Arial, sans-serif;
+    }
